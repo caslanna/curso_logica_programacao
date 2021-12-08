@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+
+    function calculoIdade() {
+        var idade1 = document.getElementById("idade1").value
+        var idade2 = document.getElementById("idade2").value
+        var resultado = Number(idade1) - Number(idade2)
+        alert("A diferença de idade é: " + resultado)
+    }
+    document.write("<h1>Calculadora diferença de idade</h1>");
+    document.write("<h3>Digite a primeira idade</h3>");
+    document.write('<input type="text" id="idade1">')
+    document.write("<h3>Digite a segunda idade</h3>");
+    document.write('<input type="text" id="idade2">')
+    document.write('<br><button onclick="calculoIdade()"> calcular</button>')
+
+</script>
